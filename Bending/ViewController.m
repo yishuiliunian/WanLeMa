@@ -29,6 +29,13 @@ CGPoint CGPointOffSet(CGPoint p ,CGFloat x, CGFloat y) {
     return p;
 }
 
+CGRect CGRectWithOriginAndSize(CGPoint p, CGSize size) {
+    CGRect rect = CGRectZero;
+    rect.origin = p;
+    rect.size = size;
+    return rect;
+}
+
 @interface ViewController ()
 
 @end
@@ -109,7 +116,7 @@ INIT_DZ_EXTERN_STRING(kDZLDCoverDown, ld_down);
 {
     [super viewDidAppear:animated];
     [self startGearRotation];
-    [self startCoverMovition];
+//    [self startCoverMovition];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -118,31 +125,39 @@ INIT_DZ_EXTERN_STRING(kDZLDCoverDown, ld_down);
 - (void) viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
+   
+    CGFloat scale = 0.9;
+
     
-    
-    SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).maskView = [[UIImageView alloc] initWithImage:DZCachedImageByName(kDZLeidaContentName)];
-    
+    UIImageView* maskView = [[UIImageView alloc] initWithImage:DZCachedImageByName(kDZLeidaContentName)];
+    maskView.frame = CGRectWithOriginAndSize(CGPointZero, CGSizeScale(DZCachedImageByName(kDZLeidaContentName).size, scale  ));
+    SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).maskView = maskView;
     
     CGPoint leidaCenter = CGPointMake(CGRectGetWidth(self.view.frame)/2, CGRectGetHeight(self.view.frame)/2);
     
    
-    CGFloat scale = 0.9;
+    CGFloat coverOffsetY = 2;
     CGSize potBaseSize = CGSizeScale(DZCachedImageByName(kDZPotBaseImageName).size, scale);
     
     SELF_IMAGEVIEW_WTIH_NAME(kDZPotBaseImageName).frame = CGRectWithCenterAndSize(leidaCenter, potBaseSize);
     
-    SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).frame = CGRectWithCenterAndSize(CGPointOffSet(leidaCenter, -2, -12),
+    SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).frame = CGRectWithCenterAndSize(CGPointOffSet(leidaCenter, -2, -13),
                                                                                   CGSizeScale( SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).image.size, scale));
 
+    
     LD_arrowIMG.frame = CGRectMake(CGRectGetWidth(SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).frame) - LD_arrowIMG.image.size.width/2
-                                                                   ,0
+                                                                   ,coverOffsetY
                                                                    ,LD_arrowIMG.image.size.width,
                                                                    LD_arrowIMG.image.size.height);
     
-    LD_righUpIMG.frame = CGRectMake(CGRectGetWidth(SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).frame)/2, 0 , LD_righUpIMG.image.size.width, LD_righUpIMG.image.size.height);
-    LD_leftUpIMG.frame = CGRectMake(0, 0, LD_leftUpIMG.image.size.width, LD_leftUpIMG.image.size.height);
+    LD_righUpIMG.frame= CGRectWithOriginAndSize(CGPointMake(CGRectGetWidth(SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).frame)/2, coverOffsetY), CGSizeScale(LD_righUpIMG.image.size, scale));
     
-    LD_downIMG.frame = CGRectMake((CGRectGetWidth(SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).frame) - LD_downIMG.image.size.width)/2, CGRectGetHeight(SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).frame)/2, LD_downIMG.image.size.width, LD_downIMG.image.size.height);
+    LD_leftUpIMG.frame = CGRectWithOriginAndSize(CGPointMake(0, coverOffsetY), CGSizeScale(LD_leftUpIMG.image.size, scale));
+    
+    CGSize downIMGSize = CGSizeScale(LD_downIMG.image.size, scale);
+    LD_downIMG.frame = CGRectWithOriginAndSize(CGPointMake((CGRectGetWidth(SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).frame) - downIMGSize.width)/2,
+                                                           CGRectGetHeight(SELF_IMAGEVIEW_WTIH_NAME(kDZLeidaContentName).frame)/2 + coverOffsetY),
+                                               downIMGSize );
     
     CGPoint bigGearCenter = CGPointOffSet(leidaCenter, - SELF_IMAGEVIEW_WTIH_NAME(kDZPotBaseImageName).frame.size.width*247/665, -SELF_IMAGEVIEW_WTIH_NAME(kDZPotBaseImageName).frame.size.height*156/715);
     

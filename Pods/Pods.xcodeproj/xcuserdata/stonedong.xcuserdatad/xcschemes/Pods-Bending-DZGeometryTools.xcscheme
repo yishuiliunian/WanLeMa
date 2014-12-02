@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7484A3F9EC027ABB89F86AC7"
+               BlueprintIdentifier = "B3813C4FC56FE8E3BACAA25B"
                BuildableName = "libPods-Bending-DZGeometryTools.a"
                BlueprintName = "Pods-Bending-DZGeometryTools"
                ReferencedContainer = "container:Pods.xcodeproj">

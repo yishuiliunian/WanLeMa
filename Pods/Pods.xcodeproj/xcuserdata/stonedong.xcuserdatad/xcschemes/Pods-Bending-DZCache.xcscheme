@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "41E07BACE1F330C42761C420"
+               BlueprintIdentifier = "9880A7608FFB48C8582622D0"
                BuildableName = "libPods-Bending-DZCache.a"
                BlueprintName = "Pods-Bending-DZCache"
                ReferencedContainer = "container:Pods.xcodeproj">
