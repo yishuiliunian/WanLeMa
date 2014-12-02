@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46EFFB839A7BA5579C63CF15 /* libPods-Bending.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1ABCE1FFC0E195D59ECE85 /* libPods-Bending.a */; };
 		65C7BF0E1A2C727D0059FFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7BF0D1A2C727D0059FFEE /* main.m */; };
 		65C7BF111A2C727D0059FFEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7BF101A2C727D0059FFEE /* AppDelegate.m */; };
 		65C7BF141A2C727D0059FFEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7BF131A2C727D0059FFEE /* ViewController.m */; };
@@ -14,6 +15,32 @@
 		65C7BF191A2C727D0059FFEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF181A2C727D0059FFEE /* Images.xcassets */; };
 		65C7BF1C1A2C727D0059FFEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF1A1A2C727D0059FFEE /* LaunchScreen.xib */; };
 		65C7BF281A2C727D0059FFEE /* BendingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7BF271A2C727D0059FFEE /* BendingTests.m */; };
+		65C7BF341A2C732D0059FFEE /* UIView+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7BF331A2C732D0059FFEE /* UIView+Rotation.m */; };
+		65C7BF6E1A2C8CED0059FFEE /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF561A2C8CED0059FFEE /* dog.png */; };
+		65C7BF6F1A2C8CED0059FFEE /* gear_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF571A2C8CED0059FFEE /* gear_1@2x.png */; };
+		65C7BF701A2C8CED0059FFEE /* gear_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF581A2C8CED0059FFEE /* gear_2@2x.png */; };
+		65C7BF711A2C8CED0059FFEE /* gear_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF591A2C8CED0059FFEE /* gear_3.png */; };
+		65C7BF721A2C8CED0059FFEE /* pot_base@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF5A1A2C8CED0059FFEE /* pot_base@2x.png */; };
+		65C7BF731A2C8CED0059FFEE /* 分享底座.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF5B1A2C8CED0059FFEE /* 分享底座.png */; };
+		65C7BF741A2C8CED0059FFEE /* 分享盖子_上.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF5C1A2C8CED0059FFEE /* 分享盖子_上.png */; };
+		65C7BF751A2C8CED0059FFEE /* 分享盖子_下.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF5D1A2C8CED0059FFEE /* 分享盖子_下.png */; };
+		65C7BF761A2C8CED0059FFEE /* 分享空间_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF5E1A2C8CED0059FFEE /* 分享空间_1.png */; };
+		65C7BF771A2C8CED0059FFEE /* 分享空间_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF5F1A2C8CED0059FFEE /* 分享空间_2.png */; };
+		65C7BF781A2C8CED0059FFEE /* 分享朋友圈_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF601A2C8CED0059FFEE /* 分享朋友圈_1.png */; };
+		65C7BF791A2C8CED0059FFEE /* 分享朋友圈_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF611A2C8CED0059FFEE /* 分享朋友圈_2.png */; };
+		65C7BF7A1A2C8CED0059FFEE /* 分享微博_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF621A2C8CED0059FFEE /* 分享微博_1.png */; };
+		65C7BF7B1A2C8CED0059FFEE /* 分享微博_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF631A2C8CED0059FFEE /* 分享微博_2.png */; };
+		65C7BF7C1A2C8CED0059FFEE /* 开关盖子_上.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF641A2C8CED0059FFEE /* 开关盖子_上.png */; };
+		65C7BF7D1A2C8CED0059FFEE /* 开关盖子_下.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF651A2C8CED0059FFEE /* 开关盖子_下.png */; };
+		65C7BF7E1A2C8CED0059FFEE /* 开始_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF661A2C8CED0059FFEE /* 开始_1.png */; };
+		65C7BF7F1A2C8CED0059FFEE /* 开始_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF671A2C8CED0059FFEE /* 开始_2.png */; };
+		65C7BF801A2C8CED0059FFEE /* ld_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF681A2C8CED0059FFEE /* ld_down@2x.png */; };
+		65C7BF811A2C8CED0059FFEE /* ld_right_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF691A2C8CED0059FFEE /* ld_right_up@2x.png */; };
+		65C7BF821A2C8CED0059FFEE /* ld_left_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF6A1A2C8CED0059FFEE /* ld_left_up@2x.png */; };
+		65C7BF831A2C8CED0059FFEE /* leida_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF6B1A2C8CED0059FFEE /* leida_arrow@2x.png */; };
+		65C7BF841A2C8CED0059FFEE /* leida_ping@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF6C1A2C8CED0059FFEE /* leida_ping@2x.png */; };
+		65C7BF851A2C8CED0059FFEE /* 屏幕.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BF6D1A2C8CED0059FFEE /* 屏幕.png */; };
+		65C7BFB31A2D646F0059FFEE /* leidaping_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C7BFB21A2D646F0059FFEE /* leidaping_mask@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44D907072EC4279FFBD1F412 /* Pods-Bending.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bending.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bending/Pods-Bending.debug.xcconfig"; sourceTree = "<group>"; };
 		65C7BF081A2C727D0059FFEE /* Bending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C7BF0C1A2C727D0059FFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65C7BF0D1A2C727D0059FFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +68,35 @@
 		65C7BF211A2C727D0059FFEE /* BendingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BendingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C7BF261A2C727D0059FFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65C7BF271A2C727D0059FFEE /* BendingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BendingTests.m; sourceTree = "<group>"; };
+		65C7BF321A2C732D0059FFEE /* UIView+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rotation.h"; sourceTree = "<group>"; };
+		65C7BF331A2C732D0059FFEE /* UIView+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rotation.m"; sourceTree = "<group>"; };
+		65C7BF561A2C8CED0059FFEE /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		65C7BF571A2C8CED0059FFEE /* gear_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear_1@2x.png"; sourceTree = "<group>"; };
+		65C7BF581A2C8CED0059FFEE /* gear_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear_2@2x.png"; sourceTree = "<group>"; };
+		65C7BF591A2C8CED0059FFEE /* gear_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_3.png; sourceTree = "<group>"; };
+		65C7BF5A1A2C8CED0059FFEE /* pot_base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pot_base@2x.png"; sourceTree = "<group>"; };
+		65C7BF5B1A2C8CED0059FFEE /* 分享底座.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享底座.png"; sourceTree = "<group>"; };
+		65C7BF5C1A2C8CED0059FFEE /* 分享盖子_上.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享盖子_上.png"; sourceTree = "<group>"; };
+		65C7BF5D1A2C8CED0059FFEE /* 分享盖子_下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享盖子_下.png"; sourceTree = "<group>"; };
+		65C7BF5E1A2C8CED0059FFEE /* 分享空间_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享空间_1.png"; sourceTree = "<group>"; };
+		65C7BF5F1A2C8CED0059FFEE /* 分享空间_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享空间_2.png"; sourceTree = "<group>"; };
+		65C7BF601A2C8CED0059FFEE /* 分享朋友圈_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享朋友圈_1.png"; sourceTree = "<group>"; };
+		65C7BF611A2C8CED0059FFEE /* 分享朋友圈_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享朋友圈_2.png"; sourceTree = "<group>"; };
+		65C7BF621A2C8CED0059FFEE /* 分享微博_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享微博_1.png"; sourceTree = "<group>"; };
+		65C7BF631A2C8CED0059FFEE /* 分享微博_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享微博_2.png"; sourceTree = "<group>"; };
+		65C7BF641A2C8CED0059FFEE /* 开关盖子_上.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开关盖子_上.png"; sourceTree = "<group>"; };
+		65C7BF651A2C8CED0059FFEE /* 开关盖子_下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开关盖子_下.png"; sourceTree = "<group>"; };
+		65C7BF661A2C8CED0059FFEE /* 开始_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始_1.png"; sourceTree = "<group>"; };
+		65C7BF671A2C8CED0059FFEE /* 开始_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始_2.png"; sourceTree = "<group>"; };
+		65C7BF681A2C8CED0059FFEE /* ld_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ld_down@2x.png"; sourceTree = "<group>"; };
+		65C7BF691A2C8CED0059FFEE /* ld_right_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ld_right_up@2x.png"; sourceTree = "<group>"; };
+		65C7BF6A1A2C8CED0059FFEE /* ld_left_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ld_left_up@2x.png"; sourceTree = "<group>"; };
+		65C7BF6B1A2C8CED0059FFEE /* leida_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leida_arrow@2x.png"; sourceTree = "<group>"; };
+		65C7BF6C1A2C8CED0059FFEE /* leida_ping@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leida_ping@2x.png"; sourceTree = "<group>"; };
+		65C7BF6D1A2C8CED0059FFEE /* 屏幕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕.png"; sourceTree = "<group>"; };
+		65C7BFB21A2D646F0059FFEE /* leidaping_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leidaping_mask@2x.png"; sourceTree = "<group>"; };
+		9D90B6D70524F044FB9DBECB /* Pods-Bending.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bending.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bending/Pods-Bending.release.xcconfig"; sourceTree = "<group>"; };
+		EF1ABCE1FFC0E195D59ECE85 /* libPods-Bending.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bending.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EFFB839A7BA5579C63CF15 /* libPods-Bending.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +118,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6516677ADD146FFEEEBA237C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44D907072EC4279FFBD1F412 /* Pods-Bending.debug.xcconfig */,
+				9D90B6D70524F044FB9DBECB /* Pods-Bending.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		65C7BEFF1A2C727D0059FFEE = {
 			isa = PBXGroup;
 			children = (
 				65C7BF0A1A2C727D0059FFEE /* Bending */,
 				65C7BF241A2C727D0059FFEE /* BendingTests */,
 				65C7BF091A2C727D0059FFEE /* Products */,
+				6516677ADD146FFEEEBA237C /* Pods */,
+				7E923E879862889A555DD131 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +150,8 @@
 		65C7BF0A1A2C727D0059FFEE /* Bending */ = {
 			isa = PBXGroup;
 			children = (
+				65C7BF551A2C8CDD0059FFEE /* Resources */,
+				65C7BF311A2C73070059FFEE /* views */,
 				65C7BF0F1A2C727D0059FFEE /* AppDelegate.h */,
 				65C7BF101A2C727D0059FFEE /* AppDelegate.m */,
 				65C7BF121A2C727D0059FFEE /* ViewController.h */,
@@ -119,6 +190,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		65C7BF311A2C73070059FFEE /* views */ = {
+			isa = PBXGroup;
+			children = (
+				65C7BF321A2C732D0059FFEE /* UIView+Rotation.h */,
+				65C7BF331A2C732D0059FFEE /* UIView+Rotation.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		65C7BF551A2C8CDD0059FFEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65C7BF561A2C8CED0059FFEE /* dog.png */,
+				65C7BF571A2C8CED0059FFEE /* gear_1@2x.png */,
+				65C7BF581A2C8CED0059FFEE /* gear_2@2x.png */,
+				65C7BF591A2C8CED0059FFEE /* gear_3.png */,
+				65C7BF5A1A2C8CED0059FFEE /* pot_base@2x.png */,
+				65C7BF5B1A2C8CED0059FFEE /* 分享底座.png */,
+				65C7BF5C1A2C8CED0059FFEE /* 分享盖子_上.png */,
+				65C7BF5D1A2C8CED0059FFEE /* 分享盖子_下.png */,
+				65C7BF5E1A2C8CED0059FFEE /* 分享空间_1.png */,
+				65C7BF5F1A2C8CED0059FFEE /* 分享空间_2.png */,
+				65C7BF601A2C8CED0059FFEE /* 分享朋友圈_1.png */,
+				65C7BF611A2C8CED0059FFEE /* 分享朋友圈_2.png */,
+				65C7BF621A2C8CED0059FFEE /* 分享微博_1.png */,
+				65C7BF631A2C8CED0059FFEE /* 分享微博_2.png */,
+				65C7BF641A2C8CED0059FFEE /* 开关盖子_上.png */,
+				65C7BF651A2C8CED0059FFEE /* 开关盖子_下.png */,
+				65C7BF661A2C8CED0059FFEE /* 开始_1.png */,
+				65C7BF671A2C8CED0059FFEE /* 开始_2.png */,
+				65C7BF681A2C8CED0059FFEE /* ld_down@2x.png */,
+				65C7BF691A2C8CED0059FFEE /* ld_right_up@2x.png */,
+				65C7BF6A1A2C8CED0059FFEE /* ld_left_up@2x.png */,
+				65C7BF6B1A2C8CED0059FFEE /* leida_arrow@2x.png */,
+				65C7BF6C1A2C8CED0059FFEE /* leida_ping@2x.png */,
+				65C7BF6D1A2C8CED0059FFEE /* 屏幕.png */,
+				65C7BFB21A2D646F0059FFEE /* leidaping_mask@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7E923E879862889A555DD131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1ABCE1FFC0E195D59ECE85 /* libPods-Bending.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65C7BF2B1A2C727D0059FFEE /* Build configuration list for PBXNativeTarget "Bending" */;
 			buildPhases = (
+				2B56069035EC26AC1F9ACC91 /* Check Pods Manifest.lock */,
 				65C7BF041A2C727D0059FFEE /* Sources */,
 				65C7BF051A2C727D0059FFEE /* Frameworks */,
 				65C7BF061A2C727D0059FFEE /* Resources */,
+				C41CA5694AEE321DE641FCC1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +321,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C7BF821A2C8CED0059FFEE /* ld_left_up@2x.png in Resources */,
+				65C7BF801A2C8CED0059FFEE /* ld_down@2x.png in Resources */,
+				65C7BF6F1A2C8CED0059FFEE /* gear_1@2x.png in Resources */,
+				65C7BF741A2C8CED0059FFEE /* 分享盖子_上.png in Resources */,
+				65C7BFB31A2D646F0059FFEE /* leidaping_mask@2x.png in Resources */,
 				65C7BF171A2C727D0059FFEE /* Main.storyboard in Resources */,
+				65C7BF6E1A2C8CED0059FFEE /* dog.png in Resources */,
+				65C7BF761A2C8CED0059FFEE /* 分享空间_1.png in Resources */,
+				65C7BF7D1A2C8CED0059FFEE /* 开关盖子_下.png in Resources */,
+				65C7BF831A2C8CED0059FFEE /* leida_arrow@2x.png in Resources */,
+				65C7BF7E1A2C8CED0059FFEE /* 开始_1.png in Resources */,
+				65C7BF781A2C8CED0059FFEE /* 分享朋友圈_1.png in Resources */,
+				65C7BF7A1A2C8CED0059FFEE /* 分享微博_1.png in Resources */,
+				65C7BF7C1A2C8CED0059FFEE /* 开关盖子_上.png in Resources */,
+				65C7BF701A2C8CED0059FFEE /* gear_2@2x.png in Resources */,
+				65C7BF7B1A2C8CED0059FFEE /* 分享微博_2.png in Resources */,
 				65C7BF1C1A2C727D0059FFEE /* LaunchScreen.xib in Resources */,
+				65C7BF721A2C8CED0059FFEE /* pot_base@2x.png in Resources */,
+				65C7BF7F1A2C8CED0059FFEE /* 开始_2.png in Resources */,
+				65C7BF841A2C8CED0059FFEE /* leida_ping@2x.png in Resources */,
+				65C7BF791A2C8CED0059FFEE /* 分享朋友圈_2.png in Resources */,
+				65C7BF711A2C8CED0059FFEE /* gear_3.png in Resources */,
 				65C7BF191A2C727D0059FFEE /* Images.xcassets in Resources */,
+				65C7BF751A2C8CED0059FFEE /* 分享盖子_下.png in Resources */,
+				65C7BF731A2C8CED0059FFEE /* 分享底座.png in Resources */,
+				65C7BF811A2C8CED0059FFEE /* ld_right_up@2x.png in Resources */,
+				65C7BF771A2C8CED0059FFEE /* 分享空间_2.png in Resources */,
+				65C7BF851A2C8CED0059FFEE /* 屏幕.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,11 +361,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B56069035EC26AC1F9ACC91 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C41CA5694AEE321DE641FCC1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bending/Pods-Bending-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65C7BF041A2C727D0059FFEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C7BF341A2C732D0059FFEE /* UIView+Rotation.m in Sources */,
 				65C7BF141A2C727D0059FFEE /* ViewController.m in Sources */,
 				65C7BF111A2C727D0059FFEE /* AppDelegate.m in Sources */,
 				65C7BF0E1A2C727D0059FFEE /* main.m in Sources */,
@@ -341,6 +522,7 @@
 		};
 		65C7BF2C1A2C727D0059FFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D907072EC4279FFBD1F412 /* Pods-Bending.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bending/Info.plist;
@@ -351,6 +533,7 @@
 		};
 		65C7BF2D1A2C727D0059FFEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D90B6D70524F044FB9DBECB /* Pods-Bending.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bending/Info.plist;
@@ -412,6 +595,7 @@
 				65C7BF2D1A2C727D0059FFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65C7BF2E1A2C727D0059FFEE /* Build configuration list for PBXNativeTarget "BendingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +604,7 @@
 				65C7BF301A2C727D0059FFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
